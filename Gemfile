@@ -5,3 +5,11 @@ gem "sinatra"
 gem "sinatra-reloader"
 
 gem "haml"
+
+gem "rspec"
+gem "cucumber"
+gem "rack-test"
+
+gem "guard"
+gem "guard-rspec"
+gem "growl"
