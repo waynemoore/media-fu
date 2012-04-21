@@ -1,1 +1,20 @@
-%h1 Hello From Haml!
+!!! 5
+%html
+  %head
+    %title Media Fu
+  %body
+    %h1 Media Fu
+
+    %h2 TV Shows
+    %table
+      - tv_shows.each do |show|
+        %tr
+          %td= show[:type]
+          %td= show[:title]
+
+    %h2 Movies
+    %table
+      - movies.each do |movie|
+        %tr
+          %td= movie[:type]
+          %td= movie[:title]
